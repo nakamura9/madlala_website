@@ -19,10 +19,10 @@
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item">
+                <!-- <li class="nav-item active">
                     <a class="nav-link" href="#products"> Products </a>
-                </li>
-                <li class="nav-item">
+                </li> -->
+                <li class="nav-item active">
                     <a class="nav-link" href="#services">Services</a>
                 </li>
                 <li class="nav-item">
@@ -49,57 +49,164 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="jumbotron ui-bg-tertiary">
-                    <h1 class="display-3">Southern Choice Projects</h1>
-                    <p class="lead">We'll give your home a whole new look!</p>
-                    <hr class="my-2">
-                    <p class="lead">
-                        <a class="btn ui-bg-primary text-white btn-lg" href="#contact" role="button">Get in Touch!</a>
-                    </p>
+                <div class="jumbotron ui-bg-tertiary shadow">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-8">
+                            <h1 class="display-3">Southern Choice Projects</h1>
+                            <p class="lead">We'll give your home a whole new look!</p>
+                            <hr class="my-2">
+                            <p class="lead">
+                                <a class="btn ui-bg-primary text-white btn-lg" href="#contact" role="button">Get in Touch!</a>
+                            </p>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="row section" id='products'>
+        <!-- <hr id='products'>
+        <div class="row section">
             <div class="col-sm-12 col-md-4">
-                <h1>Products</h1>
+                <<div class="flex flex-centered">
+                    <div class="fit-content card-md">
+                        <h1 class='text-right'>Products</h1>
+                        <p class='text-md text-right'>The things we can sell you</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-8">
+
+            </div>
+        </div> -->
+        <hr id='services'>
+        <div class="row section">
+            <div class="col-sm-12 col-md-8">
+                <div class="card-deck">
+                    <div class="card shadow card-md mb-3">
+                        <img class="card-img-top" src="/static/images/painting.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Painting | Plastering</h4>
+                            <p class="card-text">Breathe new life into your home's walls</p>
+                        </div>
+                    </div>
+                    <div class="card shadow card-md mb-3">
+                        <img class="card-img-top" src="/static/images/gardening.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Landscaping</h4>
+                            <p class="card-text">Paradise is one project away!</p>
+                        </div>
+                    </div>
+                    <div class="card shadow card-md mb-3">
+                        <img class="card-img-top" src="/static/images/tiles.svg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Flooring</h4>
+                            <p class="card-text">Complete your home's asthetic with a beautiful floorscape.</p>
+                        </div>
+                    </div>
+                    <div class="card shadow card-md mb-3">
+                        <img class="card-img-top" src="/static/images/moving.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Moving</h4>
+                            <p class="card-text">Lifting and placing, shifting and spacing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="flex flex-centered">
+                    <div class="fit-content card-md">
+                        <h1 >Services</h1>
+                        <p class='text-md'>These are the things we have chosen to do to add value. How can we help?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr id='gallery'>
+        <div class="row section">
+            <div class="col-sm-12 col-md-4">
+                <div class="flex flex-centered">
+                    <div class="fit-content card-md">
+                        <h1 >Gallery</h1>
+                        <p class='text-md'>A small sample of what we have already done. Imagine what we can do for you!</p>
+                    </div>
+                </div>
             </div>
             <div class="col-sm-12 col-md-8">
 
             </div>
         </div>
-        <div class="row section" id='services'>
-            <div class="col-sm-12 col-md-8">
+        <hr id='customers'>
+        <div class="row section">
+            <div class="col-sm-12 col-md-8 flex flex-centered">
+                <div class="fix-content card-deck">
+                    <div class="card shadow card-md customer-card">
+                        <div class="card-body">
+                            <i class="fa fa-quote-left fa-5x" aria-hidden="true"></i>
+                            <p>The job Southern Choice projects did for us was nothing short of remarkable</p>
+                            <p class='text-right'> - Someone <b>Someplace</b></p>
+                        </div>
+                        <div class="customer-card-img-bottom flex flex-centered"> <i class="fa fa-user fa-5x" aria-hidden="true"></i> </div>
+                    </div>
+                    <div class="card shadow card-md customer-card">
+                        <div class="card-body">
+                            <i class="fa fa-quote-left fa-5x" aria-hidden="true"></i>
+                            <p>The job Southern Choice projects did for us was nothing short of remarkable</p>
+                            <p class='text-right'> - Someone <b>Someplace</b></p>
+                        </div>
+                        <div class="customer-card-img-bottom flex flex-centered"> <i class="fa fa-user fa-5x" aria-hidden="true"></i> </div>
+                    </div>
+                </div>
 
             </div>
             <div class="col-sm-12 col-md-4">
-                <h1>Services</h1>
+                <div class="flex flex-centered">
+                    <div class="fit-content card-md">
+                        <h1 class='text-right'>Our Customers</h1>
+                        <p class='text-md text-right'>We've had to opportunity to work with some awesome people.Here's what they think.</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row section" id='gallery'>
+        <hr id='about'>
+        <div class="row section" >
             <div class="col-sm-12 col-md-4">
-                <h1>Gallery</h1>
+                <div class="flex flex-centered">
+                    <div class="fit-content card-md">
+                        <h1 class='text-right'>About</h1>
+                        <p class='text-md text-right'>We want you to trust us. This is who we are and how we do things.</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-12 col-md-8">
-
+            <div class="col-sm-12 col-md-8 flex flex-centered">
+                <div class="card about-card">
+                    <div class='about-img'>
+                        <img src="/static/images/uncle-gerry.JPG" alt="">
+                    </div>
+                    <div class="card-body">
+                        <div class="flex">
+                            <hr class='flex-4'>
+                            <div class="flex-1 flex flex-centered">
+                                <i class="fa fa-star text-md" aria-hidden="true"></i>
+                            </div>
+                            <hr  class='flex-4'>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere placerat sapien eu rhoncus. Donec consequat orci nibh, et ullamcorper ante varius nec. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas vel molestie eros, vel feugiat diam. Vivamus at risus sodales, tincidunt urna a, suscipit tellus. Cras ac leo erat. In et facilisis diam. Sed elementum vel lacus id lobortis. Praesent non iaculis nisi. Nam consequat lectus turpis, vitae commodo mi volutpat at. In nec maximus nibh. Nunc nec mauris id enim consequat placerat ut eu risus. Vestibulum ornare nulla et dui cursus, nec faucibus erat pulvinar.</p>
+                        <p></p>
+                        <div class="flex">
+                            <hr class='flex-4'>
+                            <div class="flex-1 flex flex-centered">
+                                <i class="fa fa-star text-md" aria-hidden="true"></i>
+                            </div>
+                            <hr  class='flex-4'>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row section" id='customers'>
-            <div class="col-sm-12 col-md-8">
-
-            </div>
-            <div class="col-sm-12 col-md-4">
-                <h1>Our customers</h1>
-            </div>
-        </div>
-        <div class="row section" id='about'>
-            <div class="col-sm-12 col-md-4">
-                <h1>About</h1>
-            </div>
-            <div class="col-sm-12 col-md-8">
-
-            </div>
-        </div>
-        <div class="row section"  id='contact'>
+        <hr id='contact'>
+        <div class="row section"  >
             <div class="col-sm-12 col-md-8 flex-centered">
                 <div class="card shadow">
                     <div class="card-body">
@@ -120,7 +227,7 @@
                 <div class="flex flex-centered">
                     <div class="fit-content card-md">
                         <h1 class='text-right'>Contact</h1>
-                        <p class='text-md text-right'>Reach out to us at any time if you have questions.</p>
+                        <p class='text-md text-right'>Reach out to us at any time if you have questions. We are dying to hear from you!</p>
                     </div>
                 </div>
             </div>
@@ -135,7 +242,7 @@
             <h4>Links</h4>
             <ul class="list">
                 <li class="list-item"> <a href="">Home</a> </li>
-                <li class="list-item"> <a href="">Products</a> |  <a href="">Services</a> </li>
+                <li class="list-item"> <!-- <a href="">Products</a> | --> <a href="">Services</a> </li>
                 <li class="list-item">  <a href="">Gallery</a> </li>
                 <li class="list-item">  <a href="">About</a> </li>
                 <li class="list-item">  <a href="">Contact</a> </li>
